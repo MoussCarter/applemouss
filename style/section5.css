@@ -1,0 +1,29 @@
+#section5 {
+  background: black;
+  color: white;
+}
+.air {
+  font-family: Calibri;
+  font-style: italic;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(rgb(84, 41, 184), #eee);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.section5_right_part {
+  background: url("../medias/podcasts.jpg") 50% 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#section5 .right_part a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 130px;
+}
+#section5 a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 10px white;
+}

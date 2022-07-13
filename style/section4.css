@@ -1,0 +1,16 @@
+#section4 {
+  background: rgb(251, 251, 253);
+}
+.section_display {
+  display: flex;
+  width: 100%;
+}
+.left_part,
+.right_part {
+  width: 100%;
+  border: 10px solid white;
+  text-align: center;
+}
+.m2 {
+  transform: scale(0.7);
+}
