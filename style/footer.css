@@ -1,0 +1,31 @@
+footer {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  position: relative;
+}
+footer ul {
+  color: rgb(53, 53, 53);
+  font-size: 0.7rem;
+  display: flex;
+}
+footer li {
+  border-right: 1px solid rgba(128, 128, 128, 0.377);
+  padding: 0 20px;
+}
+footer li:last-child {
+  border: none;
+}
+footer ul::before {
+  content: "France";
+  position: absolute;
+  right: 0;
+  top: 55px;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(73, 145, 218);
+}
+footer a:hover {
+  text-shadow: 0 0 10px rgb(73, 145, 218);
+}
